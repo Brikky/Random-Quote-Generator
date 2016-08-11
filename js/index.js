@@ -33,14 +33,21 @@ $(document).ready(function() {
 
     //Dancing Robot Methods
     function roboLeft() {
-        $("#animatedRobot").animate({left: ("-="+$( document ).width()/3)}, 3000, "swing", roboRight);
+        $("#animatedRobot").animate({
+            left: ("-=" + $(document).width() / 3)
+        }, 3000, "swing", roboRight);
     }
+
     function roboRight() {
-        $("#animatedRobot").animate({left: ("+="+$( document ).width()/3)}, 3000, "swing", roboLeft);
+        $("#animatedRobot").animate({
+            left: ("+=" + $(document).width() / 3)
+        }, 3000, "swing", roboLeft);
     }
 
     //Dance Party
-    $("#animatedRobot").animate({left: ("-="+$( document ).width()/3)}, 3000, "swing", roboRight);
+    $("#animatedRobot").animate({
+        left: ("-=" + $(document).width() / 3)
+    }, 3000, "swing", roboRight);
     roboRight();
 
     //Test Zone

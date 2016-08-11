@@ -1,49 +1,42 @@
-body{
-background-color: rgb(220,245,220);
+body {
+    background-color: rgb(220, 245, 220);
 }
-
-h1{
-  font-family: "Press Start 2P";
-  color: rgb(100,100,100);
+h1 {
+    font-family: "Press Start 2P";
+    color: rgb(100, 100, 100);
 }
-
-h3{
-  font-family: "Press Start 2P";
-  font-size: 20px;
-  color: rgb(110,110,110);
+h3 {
+    font-family: "Press Start 2P";
+    font-size: 20px;
+    color: rgb(110, 110, 110);
 }
-
 h5 {
-  margin:20px;
-  font-size: 35px;
+    margin: 20px;
+    font-size: 35px;
 }
-
 h6 {
-  margin-left: 60%;
-  font-size: 15px;
+    margin-left: 60%;
+    font-size: 15px;
 }
-p{
-  margin: 0;
-  color: rgb(180,180,180);
+p {
+    margin: 0;
+    color: rgb(180, 180, 180);
 }
-
 button {
- background-color: rgb(200,256,200);
- color: rgb(100,100,100);
- border-width: 1px !important;
- border-style: solid !important;
- border-color: rgb(100,100,100) !important;
- margin: 10px;
- margin-left: 40%;
- width: 20%;
-
+    background-color: rgb(200, 256, 200);
+    color: rgb(100, 100, 100);
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(100, 100, 100) !important;
+    margin: 10px;
+    margin-left: 40%;
+    width: 20%;
 }
-
 img {
-width: 10%;
-height: 10%;
-display: block;
-margin: 0 auto;
-padding-top: 20px;
-position: relative;
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
 }
