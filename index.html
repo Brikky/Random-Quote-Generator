@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Video Game Quote Generator</title>
+
+    <!--Stylesheets-->
+    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!--scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+
+</head>
+
+<body>
+    <!--Page main text-->
+    <h1 class="text-center"> Words from the Wise </h1>
+    <h3 class="text-center"> Video Game Quotes </h3>
+
+    <!--Container that holds the quote and author-->
+    <div style="margin-left: 10%; width:80%; height:200px; border-width:3; border-style:solid;">
+        <h5 id="quoteText" class="text-center"> Upside down whirlwind !#?whirlwind! </h5>
+        <h6 id="quoteSource"> Q*Bert  </h6>
+    </div>
+
+    <!--Buttons to generate a new quote and to share on twitter-->
+    <div class="buttons">
+        <button class="btn  refreshButton" id="refreshButton" onclick="refreshQuote()">
+            <i class="fa fa-refresh"></i> New Quote</button>
+
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Check%20this%20classic%20video%20game%20quote%20generator!">
+            <button class="btn">
+                <i class="fa fa-twitter"></i> Tweet </button>
+        </a>
+    </div>
+
+    <!--Robot-->
+    <div id="robotCage">
+      <br />
+      <p class = "text-center">
+         Destroy Me!
+      </p>
+        <img class="robot" id="animatedRobot" src="robot.gif">
+    </div>
+
+</body>
+
+</html>
