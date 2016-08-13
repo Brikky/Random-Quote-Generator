@@ -22,6 +22,8 @@ $(document).ready(function() {
 
     $("#animatedRobot").click(function() {
         $(this).fadeOut();
+        $("#destroy-text").fadeOut();
+
     });
 
     //Creates a random number that corresponds to a quote, then populates the page with the quote
